@@ -6,43 +6,35 @@
 ![.NET 8.0](https://img.shields.io/badge/.NET-8.0-512BD4?logo=dotnet)
 ![License](https://img.shields.io/badge/License-MIT-green.svg)
 
-**MultiZone-Widget-Win**, Windows 10, Windows 11 ve Windows Server işletim sistemleri için geliştirilmiş; masaüstünüze şeffaf, özelleştirilebilir ve canlı dünya saatleri eklemenizi sağlayan hafif (lightweight) bir C# WPF masaüstü widget uygulamasıdır.
+**MultiZone-Widget-Win** is a lightweight, customizable C# WPF desktop widget application designed for Windows 10, Windows 11, and Windows Server. It allows users to place transparent, sticker-like world clocks directly onto their desktop screen.
 
 ---
 
-## ✨ Öne Çıkan Özellikler
+## ✨ Key Features
 
-* 🎨 **Özelleştirilebilir Renk ve Şeffaflık:** Her bir saat dilimi için özel renk paleti ve Opacity (şeffaflık) ayarı.
-* 🚩 **Otomatik Ülke Bayrağı ve Önbellekleme:** TimeZone seçiminde otomatik dolan ülke kodları ve çevrimdışı (offline) çalışabilen hibrit bayrak önbellekleme sistemi.
-* 🖥️ **Masaüstüne Entegre Katman (Z-Order):** Sticker'ları doğrudan masaüstü seviyesinde tutma veya diğer pencerelerin üstüne sabitleme (Always on Top) imkanı.
-* 🔍 **Arama Yapılabilir TimeZone Listesi:** Dünya üzerindeki tüm saat dilimleri arasında hızlı arama ve otomatik şehir/ülke eşleştirme.
-* 📌 **Görev Çubuğu Önizleme Support:** Görev çubuğundaki simgenin üzerine gelindiğinde tüm saatleri canlı önizleme kartları şeklinde görme ve tek tıkla öne getirme.
-* 🚀 **Sistem Başlangıcında Çalışma:** Windows Registry entegrasyonu ile otomatik başlama desteği.
-* 💾 **JSON Tabanlı Kayıt Sistemi:** Tüm saat konumlama, renk ve tercihlerin yerel `%AppData%` dizininde saklanması.
-
----
-
-## 📸 Ekran Görüntüleri
-
-| Ana Dashboard | Masaüstü Sticker Widget'ları |
-| :---: | :---: |
-| *Yönetim Paneli ve Saat Listesi* | *Şeffaf Masaüstü Saatleri ve Bayraklar* |
+* 🎨 **Custom Color & Opacity:** Fully customizable color palette and transparency (Opacity) settings for each clock sticker.
+* 🚩 **Country Flags & Offline Caching:** Automatic ISO country code mapping with a hybrid caching system that downloads flag icons and stores them locally for offline availability.
+* 🖥️ **Desktop Layer (Z-Order) Control:** Pin widgets directly to the desktop wallpaper level (`HWND_BOTTOM`) or set individual clocks to "Always on Top".
+* 🔍 **Searchable TimeZone Picker:** Quickly search through global time zones with auto-filling city and country code fields.
+* 📌 **Taskbar Thumbnail Preview Support:** Hover over the taskbar icon to see live preview cards of all open clock widgets and bring any widget to the front with a single click.
+* 🚀 **Launch at Startup:** Built-in Windows Registry integration for automatic system startup.
+* 💾 **JSON-Based Storage:** Persists all clock positions, dimensions, colors, and user preferences cleanly in `%AppData%`.
 
 ---
 
-## 🛠️ Kurulum ve Derleme (Build)
+## 🛠️ Build & Installation
 
-### Gereksinimler
-* [NET 8.0 SDK](https://dotnet.microsoft.com/download/dotnet/8.0)
-* Visual Studio 2022 (WPF Desktop Development yüklenmiş olmalıdır)
+### Prerequisites
+* [.NET 8.0 SDK](https://dotnet.microsoft.com/download/dotnet/8.0)
+* Visual Studio 2022 (with WPF Desktop Development workload installed)
 
-### Kaynak Koddan Derleme
+### Building from Source
 ```bash
-# Repoyu klonlayın
+# Clone the repository
 git clone [https://github.com/mecitturker/MultiZone-Widget-Win.git](https://github.com/mecitturker/MultiZone-Widget-Win.git)
 
-# Proje dizinine gidin
+# Navigate into the project folder
 cd MultiZone-Widget-Win
 
-# Projeyi derleyin ve çalıştırın
+# Build and run
 dotnet run
