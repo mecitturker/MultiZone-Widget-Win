@@ -22,6 +22,18 @@
 
 ---
 
+## 📸 Screenshots
+
+| Main Dashboard | Clock add / Edit |
+| :---: | :---: |
+| ![Dashboard](https://github.com/user-attachments/assets/a5b01151-9f64-482c-88a8-d9de38227b01) | ![Widgets](https://github.com/user-attachments/assets/f837e158-5692-4de2-bdbe-5da59d9cc79d) | ![Widgets](https://github.com/user-attachments/assets/f837e158-5692-4de2-bdbe-5da59d9cc79d)
+
+| Desktop Clock Widgets |
+| :---: |
+| ![Dashboard](https://github.com/user-attachments/assets/1e5f44d5-fc86-401a-83d6-74f118a732e9) | 
+
+
+
 ## 🛠️ Build & Installation
 
 ### Prerequisites
@@ -38,3 +50,4 @@ cd MultiZone-Widget-Win
 
 # Build and run
 dotnet run
+
